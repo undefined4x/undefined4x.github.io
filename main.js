@@ -3561,7 +3561,31 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.less */ \"./style.less\");\n/* harmony import */ var _style_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_less__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scripts_navbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scripts/navbar.js */ \"./scripts/navbar.js\");\n/* harmony import */ var _scripts_navbar_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scripts_navbar_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _scripts_img_roulet_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scripts/img_roulet.js */ \"./scripts/img_roulet.js\");\n/* harmony import */ var _scripts_img_roulet_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scripts_img_roulet_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _img_bg_main_bg_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/bg/main_bg.jpg */ \"./img/bg/main_bg.jpg\");\n/* harmony import */ var _img_icons_svg_virus_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/icons_svg/virus.svg */ \"./img/icons_svg/virus.svg\");\n/* harmony import */ var _img_icons_svg_mask_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/icons_svg/mask.svg */ \"./img/icons_svg/mask.svg\");\n/* harmony import */ var _img_icons_svg_layer_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/icons_svg/layer.svg */ \"./img/icons_svg/layer.svg\");\n/* harmony import */ var _img_icons_svg_phone_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/icons_svg/phone.svg */ \"./img/icons_svg/phone.svg\");\n/* harmony import */ var _img_icons_svg_gmail_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/icons_svg/gmail.svg */ \"./img/icons_svg/gmail.svg\");\n/* harmony import */ var _img_icons_svg_whatsapp_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./img/icons_svg/whatsapp.svg */ \"./img/icons_svg/whatsapp.svg\");\n/* harmony import */ var _img_icons_svg_telegram_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./img/icons_svg/telegram.svg */ \"./img/icons_svg/telegram.svg\");\n/* harmony import */ var _img_mask_box_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./img/mask_box.jpg */ \"./img/mask_box.jpg\");\n/* harmony import */ var _img_mask_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./img/mask.jpg */ \"./img/mask.jpg\");\n/* harmony import */ var _img_girl_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./img/girl.jpg */ \"./img/girl.jpg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./build.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.less */ \"./style.less\");\n/* harmony import */ var _style_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_less__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scripts_navbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scripts/navbar.js */ \"./scripts/navbar.js\");\n/* harmony import */ var _scripts_navbar_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scripts_navbar_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _scripts_img_roulet_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scripts/img_roulet.js */ \"./scripts/img_roulet.js\");\n/* harmony import */ var _scripts_img_roulet_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scripts_img_roulet_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _img_bg_main_bg_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/bg/main_bg.jpg */ \"./img/bg/main_bg.jpg\");\n/* harmony import */ var _img_bg_bg1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/bg/bg1.jpg */ \"./img/bg/bg1.jpg\");\n/* harmony import */ var _img_bg_bg2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/bg/bg2.jpg */ \"./img/bg/bg2.jpg\");\n/* harmony import */ var _img_icons_svg_virus_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/icons_svg/virus.svg */ \"./img/icons_svg/virus.svg\");\n/* harmony import */ var _img_icons_svg_mask_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/icons_svg/mask.svg */ \"./img/icons_svg/mask.svg\");\n/* harmony import */ var _img_icons_svg_layer_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/icons_svg/layer.svg */ \"./img/icons_svg/layer.svg\");\n/* harmony import */ var _img_icons_svg_phone_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./img/icons_svg/phone.svg */ \"./img/icons_svg/phone.svg\");\n/* harmony import */ var _img_icons_svg_gmail_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./img/icons_svg/gmail.svg */ \"./img/icons_svg/gmail.svg\");\n/* harmony import */ var _img_icons_svg_whatsapp_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./img/icons_svg/whatsapp.svg */ \"./img/icons_svg/whatsapp.svg\");\n/* harmony import */ var _img_icons_svg_telegram_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./img/icons_svg/telegram.svg */ \"./img/icons_svg/telegram.svg\");\n/* harmony import */ var _img_icons_svg_chevron_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./img/icons_svg/chevron.svg */ \"./img/icons_svg/chevron.svg\");\n/* harmony import */ var _img_mask_box_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/mask_box.jpg */ \"./img/mask_box.jpg\");\n/* harmony import */ var _img_mask_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/mask.jpg */ \"./img/mask.jpg\");\n/* harmony import */ var _img_girl_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/girl.jpg */ \"./img/girl.jpg\");\n/* harmony import */ var _img_sertification_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/sertification.jpg */ \"./img/sertification.jpg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./build.js?");
+
+/***/ }),
+
+/***/ "./img/bg/bg1.jpg":
+/*!************************!*\
+  !*** ./img/bg/bg1.jpg ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/bg/bg1.jpg\");\n\n//# sourceURL=webpack:///./img/bg/bg1.jpg?");
+
+/***/ }),
+
+/***/ "./img/bg/bg2.jpg":
+/*!************************!*\
+  !*** ./img/bg/bg2.jpg ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/bg/bg2.jpg\");\n\n//# sourceURL=webpack:///./img/bg/bg2.jpg?");
 
 /***/ }),
 
@@ -3586,6 +3610,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/girl.jpg\");\n\n//# sourceURL=webpack:///./img/girl.jpg?");
+
+/***/ }),
+
+/***/ "./img/icons_svg/chevron.svg":
+/*!***********************************!*\
+  !*** ./img/icons_svg/chevron.svg ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icons_svg/chevron.svg\");\n\n//# sourceURL=webpack:///./img/icons_svg/chevron.svg?");
 
 /***/ }),
 
@@ -3697,6 +3733,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./img/sertification.jpg":
+/*!*******************************!*\
+  !*** ./img/sertification.jpg ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/sertification.jpg\");\n\n//# sourceURL=webpack:///./img/sertification.jpg?");
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
@@ -3727,7 +3775,7 @@ eval("var slide = document.querySelector('#slide');\nvar slides = document.query
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var firstScreen = document.getElementById('main');\nvar floatingHeader = document.querySelector('.floating_header');\nvar button; //кнопка меню\n\nvar navbar;\nwindow.addEventListener('scroll', function () {\n  if (pageYOffset > firstScreen.offsetHeight) {\n    floatingHeader.classList.add('dark_bg');\n    floatingHeader.style.position = 'fixed';\n  } else {\n    floatingHeader.classList.remove('dark_bg');\n    floatingHeader.style.position = 'absolute';\n  }\n}); // button.addEventListener('click', function () {\n//     navbar.classList.toggle();\n// })\n\n//# sourceURL=webpack:///./scripts/navbar.js?");
+eval("var firstScreen = document.getElementById('main');\nvar floatingHeader = document.querySelector('.floating_header');\nvar button = document.querySelector('#nav_button');\nvar navbar = document.querySelector('#navbar');\nwindow.addEventListener('scroll', function () {\n  if (pageYOffset > firstScreen.offsetHeight) {\n    floatingHeader.classList.add('dark_bg');\n    floatingHeader.style.position = 'fixed';\n  } else {\n    floatingHeader.classList.remove('dark_bg');\n    floatingHeader.style.position = 'absolute';\n  }\n});\nbutton.addEventListener('click', function () {\n  navbar.style.display = \"flex\";\n});\n\n//# sourceURL=webpack:///./scripts/navbar.js?");
 
 /***/ }),
 
