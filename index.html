@@ -43,10 +43,10 @@
                 <p>в Москве</p>
             </h1>
             <div class="text">
-                <p>Упаковка 60 штук - 3500 рублей</p>
+                <p>Упаковка 60 штук - 4800 рублей</p>
                 <p>Без предоплаты</p>
             </div>
-            <a class="buy_now" href="#"><span>позвонить и заказать</span></a>
+            <button class="buy_now" href="#">заказать</button>
         </div>
     </main>
     <section ID="info" class='info'>
@@ -54,7 +54,7 @@
             <div class="content">
                 <h2>Купить медицинские маски Volksmed</h2>
                 <p class="post_title">Производство: Германия</p>
-                <div class="flex_cards">
+                <div class="flex_info">
                     <div>
                         <img src="./img/icons_svg/virus.svg" alt="защитная медицинская маска в москве">
                         <h6>Защита от вирусов</h6>
@@ -125,17 +125,56 @@
     <section id="pricelist" class="pricelist">
         <div class="container">
             <h6>Цены на медицинские маски в Москве</h6>
-            <ul>
-                <li>Упаковка (60 масок) - 4800 рублей</li>
-                <li>5 упаковок (300 масок) - 3500 рублей / упаковка </li>
-                <li>10 упаковок (600 масок) - 3000 рублей / упаковка</li>
-            </ul>
-            <div class="call_us">
-                <a href="#">
-                    <span>позвонить и заказать</span>
-                </a>
+            <div class="cards_wrapper">
+                <div class="card">
+                    <div>
+                        <img src="./img/mask_box.jpg" alt="Медицинские маски купить в москве">
+                    </div>
+                    <div class="text">
+                        <p>Маски медицинские</p>
+                        <p>четыреслойные</p>
+                        <p>одна упаковка (60 масок)</p>
+                        <p class="price">4800 рублей</p>   
+                    </div>
+                    <div class="order">
+                        <button class="buy_now">
+                            заказать
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="./img/mask_box.jpg" alt="Медицинские маски купить в москве">
+                    </div>
+                    <div class="text">
+                        <p>Маски медицинские</p>
+                        <p>четыреслойные</p>
+                        <p>5 упаковок (300 масок)</p>
+                        <p class="price">3500 рублей / упаковка</p>   
+                    </div>
+                    <div class="order">
+                        <button class="buy_now">
+                            заказать
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="./img/mask_box.jpg" alt="Медицинские маски купить в москве">
+                    </div>
+                    <div class="text">
+                        <p>Маски медицинские</p>
+                        <p>четыреслойные</p>
+                        <p>10 упаковок (600 масок)</p>
+                        <p class="price">3300 рублей</p>   
+                    </div>
+                    <div class="order">
+                        <button class="buy_now">
+                            заказать
+                        </button>
+                    </div>
+                </div>
             </div>
-            
         </div>
     </section>
     <div class="sertification">
@@ -180,6 +219,44 @@
             </div>
         </div>
     </footer>
-    
+    <div class="modal">
+        <div class="form">
+            <form action="#" name="newform" method="POST">
+                <p class="title">Оформить заказ</p>
+                <p class="field_name">
+                    имя
+                    <span>*</span>
+                </p>
+                <input type="text" name="" id="">
+                <p class="field_name">
+                    номер телефона
+                    <span>*</span>
+                </p>
+                <input type="tel" name="phone">
+                <p class="field_name">
+                    адрес доставки и комментарий
+                    <span>*</span>
+                </p>
+                <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+                <p class="field_name">
+                    количество
+                    <span>*</span>
+                </p>
+                <input type="number" name="quanity" id="quanity" class="quanity">
+                <p class="summ">
+                    Сумма :
+                    <span id="sum">0</span>
+                    <span>руб</span>
+                </p>
+                <button id="order">заказать</button>
+                <div class="close">
+                    <a id="close">
+                        <img src="./img/icons_svg/close.svg" alt="закрыть">
+                    </a>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
 <script type="text/javascript" src="main.js"></script></body>
 </html>

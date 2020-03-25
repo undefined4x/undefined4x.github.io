@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic-ext);
 * {
   box-sizing: border-box;
+  outline: none;
 }
 ul,
 ol {
@@ -54,14 +55,40 @@ p {
     padding: 0 7%;
   }
 }
+button.buy_now {
+  display: inline-block;
+  background: #f02020;
+  padding: 10px 25px;
+  border-radius: 22px;
+  margin-top: 2%;
+  border: none;
+  z-index: 1000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+button.buy_now:hover {
+  background: #ff4444;
+}
 .floating_header {
   background: rgba(27, 27, 28, 0.3);
   position: absolute;
   width: 100%;
-  transition: top 0.1s ease-in;
+}
+@media (max-width: 992px) {
+  .floating_header {
+    background: rgba(27, 27, 28, 0.9);
+  }
 }
 .dark_bg {
   background: rgba(27, 27, 28, 0.8);
+}
+@media (max-width: 992px) {
+  .dark_bg {
+    background: rgba(27, 27, 28, 0.9);
+  }
 }
 .nav_inner {
   display: flex;
@@ -134,6 +161,9 @@ p {
 @media (max-width: 992px) {
   .nav_inner nav ul {
     flex-direction: column;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    text-align: center;
   }
 }
 .nav_inner .contacts a {
@@ -178,19 +208,8 @@ main .text p {
   font-weight: 600;
   margin-top: 1rem;
 }
-main a {
-  display: inline-block;
-  background: #03afaf;
-  padding: 15px 15px;
-  border-radius: 22px;
+main button.buy_now {
   margin-top: 5%;
-}
-main a span {
-  color: #fff;
-  font-weight: 600;
-}
-main a:hover {
-  background: #00cfcf;
 }
 .info {
   padding: 5rem 0;
@@ -210,29 +229,29 @@ main a:hover {
   font-weight: 700;
   margin-top: 1.5rem;
 }
-.content .flex_cards {
+.content .flex_info {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
 @media (max-width: 992px) {
-  .content .flex_cards {
+  .content .flex_info {
     flex-wrap: wrap;
   }
 }
-.content .flex_cards img {
+.content .flex_info img {
   width: 70px;
 }
-.content .flex_cards h6 {
+.content .flex_info h6 {
   font-size: 1.37rem;
   font-weight: 700;
   margin-top: 1rem;
 }
-.content .flex_cards p {
+.content .flex_info p {
   margin-top: 1rem;
 }
-.content .flex_cards div {
+.content .flex_info div {
   padding: 0 10px;
   flex-grow: 1;
 }
@@ -309,7 +328,8 @@ main a:hover {
 }
 .pricelist {
   padding: 5rem 0;
-  background: url(img/bg/bg2.jpg);
+  background: url(img/bg/bg2.jpg) center center no-repeat;
+  background-size: cover;
 }
 .pricelist h6 {
   font-size: 3rem;
@@ -322,46 +342,52 @@ main a:hover {
     font-size: 2rem;
   }
 }
-.pricelist ul {
+.pricelist .cards_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+@media (max-width: 992px) {
+  .pricelist .cards_wrapper {
+    flex-direction: column;
+  }
+}
+.pricelist .card {
+  width: 25%;
+  background: #a0c1c1;
+  border-radius: 20px;
+}
+.pricelist .card:hover {
+  box-shadow: 0 0 5px 1px #ffffff;
+}
+@media (max-width: 992px) {
+  .pricelist .card {
+    margin-top: 2rem;
+    width: 60%;
+    align-self: center;
+  }
+}
+.pricelist .card img {
+  width: 100%;
   display: block;
-  padding: 0 25%;
-  margin: 0 auto;
-  margin-top: 2rem;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 1rem;
 }
-@media (max-width: 992px) {
-  .pricelist ul {
-    padding: 0 15%;
-  }
-}
-.pricelist ul li {
-  font-size: 1.56rem;
-  color: #fff;
-  margin-top: 1rem;
-  list-style-type: disc;
-}
-@media (max-width: 992px) {
-  .pricelist ul li {
-    font-size: 1.3rem;
-    font-weight: 600;
-  }
-}
-.pricelist .call_us {
-  margin-top: 2rem;
+.pricelist .card p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0.3rem;
   text-align: center;
+  color: #373737;
 }
-.pricelist .call_us a {
-  display: inline-block;
-  background: #03afaf;
-  padding: 15px 15px;
-  border-radius: 22px;
-  margin-top: 2%;
-}
-.pricelist .call_us a span {
-  color: #fff;
+.pricelist .card .price {
   font-weight: 600;
+  margin-top: 1.5rem;
 }
-.pricelist .call_us a:hover {
-  background: #00cfcf;
+.order {
+  margin-top: 1.5rem;
+  margin-bottom: 0.7rem;
+  text-align: center;
 }
 .sertification {
   padding: 5rem 0;
@@ -417,5 +443,86 @@ footer .contacts a:first-child {
 footer .contacts a:last-child {
   text-transform: lowercase;
   letter-spacing: 1px;
+}
+.modal {
+  width: 100%;
+  height: 100vh;
+  background: rgba(37, 37, 37, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  background: #fff;
+  padding: 3rem 5rem;
+  border-radius: 20px;
+  position: relative;
+}
+.form button {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #f02020;
+  border: none;
+  border-radius: 20px;
+}
+.form button:hover {
+  background: #ff4444;
+}
+.form input {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.2rem;
+}
+.form input.quanity {
+  width: 40%;
+}
+.form textarea {
+  width: 100%;
+  resize: none;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.2rem;
+}
+.form .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.form .close img {
+  width: 50px;
+}
+p.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+p.field_name {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+p.field_name span {
+  color: red;
+}
+p.summ {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+p.summ span#sum {
+  padding-left: 1.5rem;
 }
 
