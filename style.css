@@ -189,14 +189,14 @@ main .content {
   text-align: center;
   color: #333;
 }
-main h1 p {
+main h1 {
   font-size: 3.5rem;
   margin: 0;
   letter-spacing: 0.1px;
   font-weight: 700;
 }
 @media (max-width: 992px) {
-  main h1 p {
+  main h1 {
     font-size: 2.5rem;
   }
 }
@@ -313,8 +313,6 @@ main button.buy_now {
 }
 .content_wrapper h3 {
   text-align: center;
-}
-.content_wrapper h3 p {
   font-size: 1.5rem;
   font-weight: 700;
 }
