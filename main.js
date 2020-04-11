@@ -3765,7 +3765,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _build_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./build.js */ \"./build.js\");\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _build_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./build.js */ \"./build.js\");\n\nwindow.addEventListener('load', function () {\n  var scrollHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight);\n  window.scrollTo(0, scrollHeight);\n});\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
